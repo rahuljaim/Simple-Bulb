@@ -1,0 +1,43 @@
+*{
+    margin:0px;
+    padding:0px;
+   
+}
+body{
+    text-align: center;
+    background-color: black;
+}
+p{
+    text-shadow: 2px rgb(233, 81, 81);
+    color:white;
+}
+#imgs{
+    position:relative;
+    z-index: -1;
+}
+#clip{
+    position: absolute;
+    clip: rect(0, 256px, 384px, 0);
+    margin-left: -135px;
+}
+#clip2{
+    position: absolute;
+    clip: rect(0, 512px, 384px, 256px);
+    margin-left: -346px;
+}
+button{
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.red{
+    color:green;
+}
+.green{
+    color:red;
+}
